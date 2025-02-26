@@ -1,0 +1,47 @@
+2025-02-27 01:46:56,714 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://103.12.135.52:5000
+2025-02-27 01:46:56,714 [INFO] [33mPress CTRL+C to quit[0m
+2025-02-27 01:46:56,715 [INFO]  * Restarting with stat
+2025-02-27 01:46:56,815 [WARNING]  * Debugger is active!
+2025-02-27 01:46:56,832 [INFO]  * Debugger PIN: 925-320-479
+2025-02-27 01:46:59,279 [INFO] 127.0.0.1 - - [27/Feb/2025 01:46:59] "[33mGET / HTTP/1.1[0m" 404 -
+2025-02-27 01:46:59,601 [INFO] 127.0.0.1 - - [27/Feb/2025 01:46:59] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-02-27 02:08:25,238 [INFO] 127.0.0.1 - - [27/Feb/2025 02:08:25] "GET /api/experiments HTTP/1.1" 200 -
+2025-02-27 02:08:25,472 [INFO] 127.0.0.1 - - [27/Feb/2025 02:08:25] "GET /api/experiments HTTP/1.1" 200 -
+2025-02-27 02:08:27,877 [INFO] 127.0.0.1 - - [27/Feb/2025 02:08:27] "GET /api/experiments HTTP/1.1" 200 -
+2025-02-27 02:08:28,305 [INFO] 127.0.0.1 - - [27/Feb/2025 02:08:28] "GET /api/experiments HTTP/1.1" 200 -
+2025-02-27 02:08:33,518 [INFO] 127.0.0.1 - - [27/Feb/2025 02:08:33] "GET /api/models HTTP/1.1" 200 -
+2025-02-27 02:08:33,987 [INFO] 127.0.0.1 - - [27/Feb/2025 02:08:33] "GET /api/metrics HTTP/1.1" 200 -
+2025-02-27 02:08:34,009 [INFO] 127.0.0.1 - - [27/Feb/2025 02:08:34] "GET /api/models HTTP/1.1" 200 -
+2025-02-27 02:08:34,203 [INFO] 127.0.0.1 - - [27/Feb/2025 02:08:34] "GET /api/datasets HTTP/1.1" 200 -
+2025-02-27 02:08:34,478 [INFO] 127.0.0.1 - - [27/Feb/2025 02:08:34] "GET /api/metrics HTTP/1.1" 200 -
+2025-02-27 02:08:34,526 [INFO] 127.0.0.1 - - [27/Feb/2025 02:08:34] "GET /api/datasets HTTP/1.1" 200 -
+2025-02-27 02:08:37,304 [INFO] 127.0.0.1 - - [27/Feb/2025 02:08:37] "GET /api/models HTTP/1.1" 200 -
+2025-02-27 02:08:37,524 [INFO] 127.0.0.1 - - [27/Feb/2025 02:08:37] "GET /api/models HTTP/1.1" 200 -
+2025-02-27 02:08:45,126 [INFO] 127.0.0.1 - - [27/Feb/2025 02:08:45] "GET /api/experiments HTTP/1.1" 200 -
+2025-02-27 02:08:45,529 [INFO] 127.0.0.1 - - [27/Feb/2025 02:08:45] "GET /api/experiments HTTP/1.1" 200 -
+2025-02-27 02:09:11,741 [INFO] 127.0.0.1 - - [27/Feb/2025 02:09:11] "GET /api/models HTTP/1.1" 200 -
+2025-02-27 02:09:12,185 [INFO] 127.0.0.1 - - [27/Feb/2025 02:09:12] "GET /api/models HTTP/1.1" 200 -
+2025-02-27 02:09:12,210 [INFO] 127.0.0.1 - - [27/Feb/2025 02:09:12] "GET /api/metrics HTTP/1.1" 200 -
+2025-02-27 02:09:12,422 [INFO] 127.0.0.1 - - [27/Feb/2025 02:09:12] "GET /api/metrics HTTP/1.1" 200 -
+2025-02-27 02:09:12,712 [INFO] 127.0.0.1 - - [27/Feb/2025 02:09:12] "GET /api/datasets HTTP/1.1" 200 -
+2025-02-27 02:09:12,758 [INFO] 127.0.0.1 - - [27/Feb/2025 02:09:12] "GET /api/datasets HTTP/1.1" 200 -
+2025-02-27 02:09:52,582 [INFO] 127.0.0.1 - - [27/Feb/2025 02:09:52] "GET /api/experiments HTTP/1.1" 200 -
+2025-02-27 02:09:52,837 [INFO] 127.0.0.1 - - [27/Feb/2025 02:09:52] "GET /api/experiments HTTP/1.1" 200 -
+2025-02-27 02:10:01,515 [INFO] 127.0.0.1 - - [27/Feb/2025 02:10:01] "GET /api/models HTTP/1.1" 200 -
+2025-02-27 02:10:01,936 [INFO] 127.0.0.1 - - [27/Feb/2025 02:10:01] "GET /api/models HTTP/1.1" 200 -
+2025-02-27 02:10:07,300 [INFO] 127.0.0.1 - - [27/Feb/2025 02:10:07] "OPTIONS /api/generate HTTP/1.1" 200 -
+2025-02-27 02:10:07,730 [INFO] Generating response with model gpt4o for prompt: Hello...
+2025-02-27 02:10:08,731 [INFO] 127.0.0.1 - - [27/Feb/2025 02:10:08] "POST /api/generate HTTP/1.1" 200 -
+2025-02-27 02:10:51,941 [INFO] 127.0.0.1 - - [27/Feb/2025 02:10:51] "GET /api/experiments HTTP/1.1" 200 -
+2025-02-27 02:10:52,349 [INFO] 127.0.0.1 - - [27/Feb/2025 02:10:52] "GET /api/experiments HTTP/1.1" 200 -
+2025-02-27 02:17:15,349 [INFO] 127.0.0.1 - - [27/Feb/2025 02:17:15] "GET /api/models HTTP/1.1" 200 -
+2025-02-27 02:17:15,405 [INFO] 127.0.0.1 - - [27/Feb/2025 02:17:15] "GET /api/models HTTP/1.1" 200 -
+2025-02-27 02:17:17,351 [INFO] 127.0.0.1 - - [27/Feb/2025 02:17:17] "GET /api/models HTTP/1.1" 200 -
+2025-02-27 02:17:17,600 [INFO] 127.0.0.1 - - [27/Feb/2025 02:17:17] "GET /api/models HTTP/1.1" 200 -
+2025-02-27 02:17:17,772 [INFO] 127.0.0.1 - - [27/Feb/2025 02:17:17] "GET /api/metrics HTTP/1.1" 200 -
+2025-02-27 02:17:17,800 [INFO] 127.0.0.1 - - [27/Feb/2025 02:17:17] "GET /api/metrics HTTP/1.1" 200 -
+2025-02-27 02:17:18,186 [INFO] 127.0.0.1 - - [27/Feb/2025 02:17:18] "GET /api/datasets HTTP/1.1" 200 -
+2025-02-27 02:17:18,602 [INFO] 127.0.0.1 - - [27/Feb/2025 02:17:18] "GET /api/datasets HTTP/1.1" 200 -

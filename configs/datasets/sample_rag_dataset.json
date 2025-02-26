@@ -1,0 +1,17 @@
+{
+  "name": "Sample RAG Dataset",
+  "tasks": [
+    {
+      "task_id": "rag-1",
+      "task_type": "rag",
+      "prompt": "What are the main types of machine learning?",
+      "expected_output": "The three main types of machine learning are supervised learning, unsupervised learning, and reinforcement learning.",
+      "context": [
+        "Machine learning is a branch of artificial intelligence (AI) and computer science which focuses on the use of data and algorithms to imitate the way that humans learn, gradually improving its accuracy.\n\nThere are three main types of machine learning:\n1. Supervised learning: The algorithm is trained on labeled data, meaning the input and the expected output are provided.\n2. Unsupervised learning: The algorithm is given data without explicit instructions on what to do with it.\n3. Reinforcement learning: The algorithm learns by interacting with an environment and receiving feedback in the form of rewards or penalties."
+      ],
+      "metadata": {
+        "source": "machine_learning.txt"
+      }
+    }
+  ]
+}

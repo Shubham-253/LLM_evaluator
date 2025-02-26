@@ -1,0 +1,56 @@
+{
+  "gpt4o": {
+    "type": "openai",
+    "model_name": "gpt-4o",
+    "temperature": 0.7,
+    "max_tokens": 1500,
+    "prompt_price_per_1k": 0.005,
+    "completion_price_per_1k": 0.015,
+    "description": "GPT-4o from OpenAI"
+  },
+  "gpt35turbo": {
+    "type": "openai",
+    "model_name": "gpt-3.5-turbo",
+    "temperature": 0.7,
+    "max_tokens": 1500,
+    "prompt_price_per_1k": 0.0005,
+    "completion_price_per_1k": 0.0015,
+    "description": "GPT-3.5 Turbo from OpenAI"
+  },
+  "claude-3-opus": {
+    "type": "bedrock",
+    "provider": "anthropic",
+    "model_name": "anthropic.claude-3-opus-20240229-v1:0",
+    "temperature": 0.7,
+    "max_tokens": 1500,
+    "input_price_per_1k": 0.015,
+    "output_price_per_1k": 0.075,
+    "description": "Claude 3 Opus from Anthropic via AWS Bedrock"
+  },
+  "claude-3-sonnet": {
+    "type": "bedrock",
+    "provider": "anthropic",
+    "model_name": "anthropic.claude-3-sonnet-20240229-v1:0",
+    "temperature": 0.7,
+    "max_tokens": 1500,
+    "input_price_per_1k": 0.003,
+    "output_price_per_1k": 0.015,
+    "description": "Claude 3 Sonnet from Anthropic via AWS Bedrock"
+  },
+  "mistral-7b": {
+    "type": "ollama",
+    "model_name": "mistral",
+    "base_url": "http://localhost:11434",
+    "temperature": 0.7,
+    "max_tokens": 1500,
+    "description": "Mistral 7B running locally via Ollama"
+  },
+  "deepseek-r1": {
+    "type": "ollama",
+    "model_name": "deepseek-r1:7b",
+    "base_url": "http://localhost:11434",
+    "temperature": 0.7,
+    "max_tokens": 1500,
+    "description": "DeepSeek R1 running locally via Ollama"
+  }
+}
